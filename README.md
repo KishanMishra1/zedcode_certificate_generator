@@ -8,14 +8,14 @@
  
 
 ### Dependencies used:
-
+   
+* **re-grex:** For extracting needed texts
 * **pillow:** For writing text on image and other image related operations
 * **xlrd:** For reading excel data
 * **smtplib:** SMTP server to send mails with attachments
 
 ### Steps to run:
 
-1. Run **pip install -r requirements.txt** to install all required dependencies.
-2. Make an excel file and include it in the python files accordingly.
-3. Run **python paint.py** to draw certificates.
-4. Run **python certificate.py** to send the certificates to the respective email IDs.
+1. Make an excel file with groupname , name , email as column names.
+2. Run **python base.py** to draw certificates.
+3. Run **python main.py** to send the certificates to the respective email IDs.
